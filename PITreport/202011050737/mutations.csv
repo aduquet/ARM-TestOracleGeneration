@@ -1,0 +1,17 @@
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,clear,131,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0024(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator,isEmpty,92,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,isEmpty,92,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0031(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,peek,81,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,peek,78,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0031(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator,peek,81,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,pop,52,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,pop,49,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0031(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator,pop,52,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator,push,29,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator,size,115,KILLED,experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0027(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator,toString,137,NO_COVERAGE,none
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator,toString,146,NO_COVERAGE,none
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator,toString,137,NO_COVERAGE,none
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,toString,137,NO_COVERAGE,none
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,toString,137,NO_COVERAGE,none
+Stack.java,experiment.util.Stack,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,toString,141,NO_COVERAGE,none
