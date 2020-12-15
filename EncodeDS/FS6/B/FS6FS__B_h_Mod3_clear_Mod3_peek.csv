@@ -1,0 +1,2 @@
+,testId,instanceId,size,isEmpty,peek_obj_type,push,pop,clear,diff
+2134,1607895723148:c26dc69a-1c2b-4bb4-87f8-fdfc274ee7da,1607895723148:3daa6565-e5a5-43aa-bc1e-0cc5630310ab,"size == ""0""","isEmpty == ""True""","peek_obj_type == ""EmptyObject""","push == ""False""","pop == ""True""","clear == ""False""",No

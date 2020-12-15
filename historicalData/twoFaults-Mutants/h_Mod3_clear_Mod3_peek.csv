@@ -1,0 +1,2 @@
+,testId,instanceId,size,isEmpty,peek,peek_obj_type,calledMethod,pushInput,diff,size_p,isEmpty_p,peek_p,peek_obj_type_p,calledMethod_p,pushInput_p
+2134,1607895723148:c26dc69a-1c2b-4bb4-87f8-fdfc274ee7da,1607895723148:3daa6565-e5a5-43aa-bc1e-0cc5630310ab,0,True,EmptyObject,EmptyObject,pop,none,No,0,True,EmptyObject,EmptyObject,CTOR,none

@@ -1,0 +1,1478 @@
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>call fullrun.bat experiment.drivers AlejaStack 0 10000 
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>REM call randoop-call.bat experiment.drivers AlejaStack 0 10000 
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>call testsuite.bat experiment.drivers AlejaStack 0 10000 
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>set package=experiment.drivers 
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>set testclasspath=experiment\drivers 
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>javac -d .\target\test-classes -classpath .;C:\Users\duquet\Documents\Install\junit-4.13.jar;target\classes\;target\test-classes\ src\test\java\experiment\drivers\test\RegressionTest-3\*_AlejaStackTest_0_10000_*.java 
+
+(base) C:\Users\duquet\Documents\GitHub\ARM-TestOracleGeneration\StackClass-JavaCode>java -Dseed=0 -Dlimit=10000 -classpath .;;C:\Users\duquet\Documents\Install\junit-4.13.jar;C:\Users\duquet\Documents\Install\hamcrest-core-1.3.jar;target\classes\;target\test-classes\ org.junit.runner.JUnitCore experiment.drivers.test.Regression_AlejaStackTest_0_10000_ 
+JUnit version 4.13
+..............E.....E.....E...........E............E..E.E.E...E..E...E.............E.E..E...........E.E...E........E...........E....E.....E.............E...E.E.E....E..E............E..E..E.E.E...........E.E...........E..E.....E...E....E........E........E..E...E...E..E......E.E.E.................E....E.E...........E...E.E.E...E..................E.........E..E...E..........E..E......E.....E....E.....E...E...E..E.E....E......E..E.....E...E..E..E.............E..E..E.E..E....E..E.E.......E........E..E....E........E..E....E..E....E..E....E.........E......E....E..E.....E...E...E.....E....E.E..E...E....E..E....E..E...............E.....E...................E.....E.E...E.E..........E................E..........E..E..........E...E...E...E..E...E...E.E....E..E....E.E...E.....E...E....................E........E..E....E...E.E..E.E.........E.E..E............E......E....E...E...E.E.....E.E......................E..E.........E........E.........E........E.......E.E...E.E.........E.E..E.E........E.E.....E.....E........E.......E...............E.E........E..........E.E............E....E........E................E......E..........E.E................E.E......E.......E.E..E.............E.E.....................E...E....E......E..E.E.........E.....E..E........E...........E............E.........E..............E.......E.....E..........E.E............E.......E........E......E......E.E..............E.........E............E.E......E..E......E..E..................E.............E..........E....E..E.......E....E....E...E......E............E.E...............E.E..E.E....E.................E..E..E.....E......E..............E......E.....E...E......E......E..E.....E...E.........E.......E.....E.E..E.....E..E....E...............E.E...E.E.E...............E...E......E...................E..............E..E....................E..E..E..........E...E..E.E........E.......E..E.E....E...E....E...E.....E.E.......E...........E....................E...E....E.......E......................E.E....E.E.....E....E...E..............E...........E..........E.....E....E...E....E...........E...E......................E............E..E.E.....E.....E.....E......E.......E..................E.......E...E...E......E.........................E....E..E.E.........E.......E........E.........E........E......E.....E............E...........E.E.E.........E............E...E....E.E.....E....E....E....E...........E....E...E.E....E.....E......E.E.
+Time: 1.649
+There were 364 failures:
+1) test0014(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0014(Regression_AlejaStackTest_0_10000_0.java:266)
+2) test0019(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0019(Regression_AlejaStackTest_0_10000_0.java:401)
+3) test0024(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0024(Regression_AlejaStackTest_0_10000_0.java:606)
+4) test0035(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0035(Regression_AlejaStackTest_0_10000_0.java:985)
+5) test0047(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0047(Regression_AlejaStackTest_0_10000_0.java:1637)
+6) test0049(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0049(Regression_AlejaStackTest_0_10000_0.java:1767)
+7) test0050(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0050(Regression_AlejaStackTest_0_10000_0.java:1795)
+8) test0051(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0051(Regression_AlejaStackTest_0_10000_0.java:1885)
+9) test0054(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0054(Regression_AlejaStackTest_0_10000_0.java:2134)
+10) test0056(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0056(Regression_AlejaStackTest_0_10000_0.java:2239)
+11) test0059(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0059(Regression_AlejaStackTest_0_10000_0.java:2413)
+12) test0072(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0072(Regression_AlejaStackTest_0_10000_0.java:3017)
+13) test0073(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0073(Regression_AlejaStackTest_0_10000_0.java:3067)
+14) test0075(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0075(Regression_AlejaStackTest_0_10000_0.java:3237)
+15) test0086(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0086(Regression_AlejaStackTest_0_10000_0.java:4281)
+16) test0087(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0087(Regression_AlejaStackTest_0_10000_0.java:4336)
+17) test0090(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0090(Regression_AlejaStackTest_0_10000_0.java:4539)
+18) test0098(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0098(Regression_AlejaStackTest_0_10000_0.java:5117)
+19) test0109(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0109(Regression_AlejaStackTest_0_10000_0.java:6085)
+20) test0113(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0113(Regression_AlejaStackTest_0_10000_0.java:6402)
+21) test0118(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0118(Regression_AlejaStackTest_0_10000_0.java:6744)
+22) test0131(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0131(Regression_AlejaStackTest_0_10000_0.java:7763)
+23) test0134(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0134(Regression_AlejaStackTest_0_10000_0.java:7997)
+24) test0135(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0135(Regression_AlejaStackTest_0_10000_0.java:8067)
+25) test0136(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0136(Regression_AlejaStackTest_0_10000_0.java:8148)
+26) test0140(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0140(Regression_AlejaStackTest_0_10000_0.java:8473)
+27) test0142(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0142(Regression_AlejaStackTest_0_10000_0.java:8598)
+28) test0154(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0154(Regression_AlejaStackTest_0_10000_0.java:9667)
+29) test0156(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0156(Regression_AlejaStackTest_0_10000_0.java:9832)
+30) test0158(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0158(Regression_AlejaStackTest_0_10000_0.java:9906)
+31) test0159(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0159(Regression_AlejaStackTest_0_10000_0.java:9942)
+32) test0160(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0160(Regression_AlejaStackTest_0_10000_0.java:9990)
+33) test0171(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0171(Regression_AlejaStackTest_0_10000_0.java:10872)
+34) test0172(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0172(Regression_AlejaStackTest_0_10000_0.java:10899)
+35) test0183(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0183(Regression_AlejaStackTest_0_10000_0.java:12064)
+36) test0185(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0185(Regression_AlejaStackTest_0_10000_0.java:12223)
+37) test0190(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0190(Regression_AlejaStackTest_0_10000_0.java:12601)
+38) test0193(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0193(Regression_AlejaStackTest_0_10000_0.java:12896)
+39) test0197(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0197(Regression_AlejaStackTest_0_10000_0.java:13157)
+40) test0205(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0205(Regression_AlejaStackTest_0_10000_0.java:13786)
+41) test0213(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0213(Regression_AlejaStackTest_0_10000_0.java:14721)
+42) test0215(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0215(Regression_AlejaStackTest_0_10000_0.java:14892)
+43) test0218(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0218(Regression_AlejaStackTest_0_10000_0.java:15103)
+44) test0221(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0221(Regression_AlejaStackTest_0_10000_0.java:15344)
+45) test0223(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0223(Regression_AlejaStackTest_0_10000_0.java:15593)
+46) test0229(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0229(Regression_AlejaStackTest_0_10000_0.java:16178)
+47) test0230(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0230(Regression_AlejaStackTest_0_10000_0.java:16281)
+48) test0231(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0231(Regression_AlejaStackTest_0_10000_0.java:16395)
+49) test0248(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0248(Regression_AlejaStackTest_0_10000_0.java:17929)
+50) test0252(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0252(Regression_AlejaStackTest_0_10000_0.java:18260)
+51) test0253(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0253(Regression_AlejaStackTest_0_10000_0.java:18305)
+52) test0264(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0264(Regression_AlejaStackTest_0_10000_0.java:19063)
+53) test0267(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0267(Regression_AlejaStackTest_0_10000_0.java:19441)
+54) test0268(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0268(Regression_AlejaStackTest_0_10000_0.java:19541)
+55) test0269(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0269(Regression_AlejaStackTest_0_10000_0.java:19627)
+56) test0272(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0272(Regression_AlejaStackTest_0_10000_0.java:20040)
+57) test0290(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0290(Regression_AlejaStackTest_0_10000_0.java:22037)
+58) test0299(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0299(Regression_AlejaStackTest_0_10000_0.java:22791)
+59) test0301(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0301(Regression_AlejaStackTest_0_10000_0.java:23103)
+60) test0304(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0304(Regression_AlejaStackTest_0_10000_0.java:23369)
+61) test0314(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0314(Regression_AlejaStackTest_0_10000_0.java:24308)
+62) test0316(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0316(Regression_AlejaStackTest_0_10000_0.java:24526)
+63) test0322(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0322(Regression_AlejaStackTest_0_10000_0.java:25016)
+64) test0327(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0327(Regression_AlejaStackTest_0_10000_0.java:25407)
+65) test0331(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0331(Regression_AlejaStackTest_0_10000_0.java:25822)
+66) test0336(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0336(Regression_AlejaStackTest_0_10000_0.java:26200)
+67) test0339(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0339(Regression_AlejaStackTest_0_10000_0.java:26364)
+68) test0342(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0342(Regression_AlejaStackTest_0_10000_0.java:26770)
+69) test0344(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0344(Regression_AlejaStackTest_0_10000_0.java:26988)
+70) test0345(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0345(Regression_AlejaStackTest_0_10000_0.java:27057)
+71) test0349(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0349(Regression_AlejaStackTest_0_10000_0.java:27462)
+72) test0355(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0355(Regression_AlejaStackTest_0_10000_0.java:28063)
+73) test0357(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0357(Regression_AlejaStackTest_0_10000_0.java:28246)
+74) test0362(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0362(Regression_AlejaStackTest_0_10000_0.java:28708)
+75) test0365(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0365(Regression_AlejaStackTest_0_10000_0.java:28901)
+76) test0367(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0367(Regression_AlejaStackTest_0_10000_0.java:29140)
+77) test0369(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0369(Regression_AlejaStackTest_0_10000_0.java:29322)
+78) test0382(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0382(Regression_AlejaStackTest_0_10000_0.java:30596)
+79) test0384(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0384(Regression_AlejaStackTest_0_10000_0.java:30845)
+80) test0386(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0386(Regression_AlejaStackTest_0_10000_0.java:30980)
+81) test0387(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0387(Regression_AlejaStackTest_0_10000_0.java:31078)
+82) test0389(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0389(Regression_AlejaStackTest_0_10000_0.java:31362)
+83) test0393(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0393(Regression_AlejaStackTest_0_10000_0.java:31864)
+84) test0395(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0395(Regression_AlejaStackTest_0_10000_0.java:32009)
+85) test0396(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0396(Regression_AlejaStackTest_0_10000_0.java:32096)
+86) test0403(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0403(Regression_AlejaStackTest_0_10000_0.java:32935)
+87) test0411(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0411(Regression_AlejaStackTest_0_10000_0.java:33898)
+88) test0413(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0413(Regression_AlejaStackTest_0_10000_0.java:34122)
+89) test0417(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0417(Regression_AlejaStackTest_0_10000_0.java:34524)
+90) test0425(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0425(Regression_AlejaStackTest_0_10000_0.java:35472)
+91) test0427(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0427(Regression_AlejaStackTest_0_10000_0.java:35609)
+92) test0431(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0431(Regression_AlejaStackTest_0_10000_0.java:36079)
+93) test0433(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0433(Regression_AlejaStackTest_0_10000_0.java:36309)
+94) test0437(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0437(Regression_AlejaStackTest_0_10000_0.java:36695)
+95) test0439(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0439(Regression_AlejaStackTest_0_10000_0.java:36882)
+96) test0443(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0443(Regression_AlejaStackTest_0_10000_0.java:37326)
+97) test0452(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0452(Regression_AlejaStackTest_0_10000_0.java:37999)
+98) test0458(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0458(Regression_AlejaStackTest_0_10000_0.java:38518)
+99) test0462(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0462(Regression_AlejaStackTest_0_10000_0.java:38891)
+100) test0464(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0464(Regression_AlejaStackTest_0_10000_0.java:39108)
+101) test0469(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0469(Regression_AlejaStackTest_0_10000_0.java:39663)
+102) test0472(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0472(Regression_AlejaStackTest_0_10000_0.java:40024)
+103) test0475(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0475(Regression_AlejaStackTest_0_10000_0.java:40367)
+104) test0480(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0480(Regression_AlejaStackTest_0_10000_0.java:40848)
+105) test0484(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0484(Regression_AlejaStackTest_0_10000_0.java:41202)
+106) test0485(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0485(Regression_AlejaStackTest_0_10000_0.java:41272)
+107) test0487(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0487(Regression_AlejaStackTest_0_10000_0.java:41430)
+108) test0490(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0490(Regression_AlejaStackTest_0_10000_0.java:41762)
+109) test0494(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0494(Regression_AlejaStackTest_0_10000_0.java:42310)
+110) test0496(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0496(Regression_AlejaStackTest_0_10000_0.java:42469)
+111) test0500(experiment.drivers.test.Regression_AlejaStackTest_0_10000_0)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_0.test0500(Regression_AlejaStackTest_0_10000_0.java:42897)
+112) test0502(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0502(Regression_AlejaStackTest_0_10000_1.java:198)
+113) test0517(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0517(Regression_AlejaStackTest_0_10000_1.java:1479)
+114) test0522(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0522(Regression_AlejaStackTest_0_10000_1.java:1949)
+115) test0541(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0541(Regression_AlejaStackTest_0_10000_1.java:3892)
+116) test0546(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0546(Regression_AlejaStackTest_0_10000_1.java:4330)
+117) test0547(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0547(Regression_AlejaStackTest_0_10000_1.java:4376)
+118) test0550(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0550(Regression_AlejaStackTest_0_10000_1.java:4651)
+119) test0551(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0551(Regression_AlejaStackTest_0_10000_1.java:4800)
+120) test0561(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0561(Regression_AlejaStackTest_0_10000_1.java:5544)
+121) test0577(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0577(Regression_AlejaStackTest_0_10000_1.java:7142)
+122) test0587(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0587(Regression_AlejaStackTest_0_10000_1.java:8168)
+123) test0589(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0589(Regression_AlejaStackTest_0_10000_1.java:8341)
+124) test0599(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0599(Regression_AlejaStackTest_0_10000_1.java:9381)
+125) test0602(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0602(Regression_AlejaStackTest_0_10000_1.java:9715)
+126) test0605(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0605(Regression_AlejaStackTest_0_10000_1.java:9959)
+127) test0608(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0608(Regression_AlejaStackTest_0_10000_1.java:10240)
+128) test0610(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0610(Regression_AlejaStackTest_0_10000_1.java:10411)
+129) test0613(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0613(Regression_AlejaStackTest_0_10000_1.java:10718)
+130) test0616(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0616(Regression_AlejaStackTest_0_10000_1.java:11118)
+131) test0617(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0617(Regression_AlejaStackTest_0_10000_1.java:11198)
+132) test0621(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0621(Regression_AlejaStackTest_0_10000_1.java:11549)
+133) test0623(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0623(Regression_AlejaStackTest_0_10000_1.java:11815)
+134) test0627(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0627(Regression_AlejaStackTest_0_10000_1.java:12359)
+135) test0628(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0628(Regression_AlejaStackTest_0_10000_1.java:12482)
+136) test0631(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0631(Regression_AlejaStackTest_0_10000_1.java:12836)
+137) test0636(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0636(Regression_AlejaStackTest_0_10000_1.java:13258)
+138) test0639(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0639(Regression_AlejaStackTest_0_10000_1.java:13675)
+139) test0659(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0659(Regression_AlejaStackTest_0_10000_1.java:15781)
+140) test0667(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0667(Regression_AlejaStackTest_0_10000_1.java:16486)
+141) test0669(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0669(Regression_AlejaStackTest_0_10000_1.java:16611)
+142) test0673(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0673(Regression_AlejaStackTest_0_10000_1.java:16984)
+143) test0676(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0676(Regression_AlejaStackTest_0_10000_1.java:17247)
+144) test0677(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0677(Regression_AlejaStackTest_0_10000_1.java:17374)
+145) test0679(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0679(Regression_AlejaStackTest_0_10000_1.java:17543)
+146) test0680(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0680(Regression_AlejaStackTest_0_10000_1.java:17591)
+147) test0689(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0689(Regression_AlejaStackTest_0_10000_1.java:18309)
+148) test0690(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0690(Regression_AlejaStackTest_0_10000_1.java:18336)
+149) test0692(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0692(Regression_AlejaStackTest_0_10000_1.java:18550)
+150) test0704(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0704(Regression_AlejaStackTest_0_10000_1.java:19692)
+151) test0710(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0710(Regression_AlejaStackTest_0_10000_1.java:20378)
+152) test0714(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0714(Regression_AlejaStackTest_0_10000_1.java:20746)
+153) test0717(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0717(Regression_AlejaStackTest_0_10000_1.java:21077)
+154) test0720(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0720(Regression_AlejaStackTest_0_10000_1.java:21357)
+155) test0721(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0721(Regression_AlejaStackTest_0_10000_1.java:21434)
+156) test0726(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0726(Regression_AlejaStackTest_0_10000_1.java:21944)
+157) test0727(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0727(Regression_AlejaStackTest_0_10000_1.java:22018)
+158) test0749(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0749(Regression_AlejaStackTest_0_10000_1.java:24216)
+159) test0751(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0751(Regression_AlejaStackTest_0_10000_1.java:24361)
+160) test0760(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0760(Regression_AlejaStackTest_0_10000_1.java:25269)
+161) test0768(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0768(Regression_AlejaStackTest_0_10000_1.java:26035)
+162) test0777(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0777(Regression_AlejaStackTest_0_10000_1.java:27055)
+163) test0785(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0785(Regression_AlejaStackTest_0_10000_1.java:27946)
+164) test0792(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0792(Regression_AlejaStackTest_0_10000_1.java:28582)
+165) test0793(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0793(Regression_AlejaStackTest_0_10000_1.java:28725)
+166) test0796(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0796(Regression_AlejaStackTest_0_10000_1.java:28984)
+167) test0797(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0797(Regression_AlejaStackTest_0_10000_1.java:29070)
+168) test0806(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0806(Regression_AlejaStackTest_0_10000_1.java:29817)
+169) test0807(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0807(Regression_AlejaStackTest_0_10000_1.java:29886)
+170) test0809(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0809(Regression_AlejaStackTest_0_10000_1.java:30143)
+171) test0810(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0810(Regression_AlejaStackTest_0_10000_1.java:30258)
+172) test0818(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0818(Regression_AlejaStackTest_0_10000_1.java:30776)
+173) test0819(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0819(Regression_AlejaStackTest_0_10000_1.java:30838)
+174) test0824(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0824(Regression_AlejaStackTest_0_10000_1.java:31332)
+175) test0829(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0829(Regression_AlejaStackTest_0_10000_1.java:31740)
+176) test0837(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0837(Regression_AlejaStackTest_0_10000_1.java:32576)
+177) test0844(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0844(Regression_AlejaStackTest_0_10000_1.java:33230)
+178) test0859(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0859(Regression_AlejaStackTest_0_10000_1.java:34585)
+179) test0860(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0860(Regression_AlejaStackTest_0_10000_1.java:34675)
+180) test0868(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0868(Regression_AlejaStackTest_0_10000_1.java:35583)
+181) test0878(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0878(Regression_AlejaStackTest_0_10000_1.java:36578)
+182) test0879(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0879(Regression_AlejaStackTest_0_10000_1.java:36695)
+183) test0891(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0891(Regression_AlejaStackTest_0_10000_1.java:37833)
+184) test0895(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0895(Regression_AlejaStackTest_0_10000_1.java:38203)
+185) test0903(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0903(Regression_AlejaStackTest_0_10000_1.java:39011)
+186) test0919(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0919(Regression_AlejaStackTest_0_10000_1.java:40434)
+187) test0925(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0925(Regression_AlejaStackTest_0_10000_1.java:41027)
+188) test0935(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0935(Regression_AlejaStackTest_0_10000_1.java:42214)
+189) test0936(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0936(Regression_AlejaStackTest_0_10000_1.java:42287)
+190) test0952(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0952(Regression_AlejaStackTest_0_10000_1.java:43733)
+191) test0953(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0953(Regression_AlejaStackTest_0_10000_1.java:43827)
+192) test0959(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0959(Regression_AlejaStackTest_0_10000_1.java:44337)
+193) test0966(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0966(Regression_AlejaStackTest_0_10000_1.java:44993)
+194) test0967(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0967(Regression_AlejaStackTest_0_10000_1.java:45124)
+195) test0969(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0969(Regression_AlejaStackTest_0_10000_1.java:45396)
+196) test0982(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0982(Regression_AlejaStackTest_0_10000_1.java:46585)
+197) test0983(experiment.drivers.test.Regression_AlejaStackTest_0_10000_1)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_1.test0983(Regression_AlejaStackTest_0_10000_1.java:46682)
+198) test1004(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1004(Regression_AlejaStackTest_0_10000_2.java:406)
+199) test1007(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1007(Regression_AlejaStackTest_0_10000_2.java:693)
+200) test1011(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1011(Regression_AlejaStackTest_0_10000_2.java:1098)
+201) test1017(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1017(Regression_AlejaStackTest_0_10000_2.java:1773)
+202) test1019(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1019(Regression_AlejaStackTest_0_10000_2.java:1999)
+203) test1020(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1020(Regression_AlejaStackTest_0_10000_2.java:2123)
+204) test1029(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1029(Regression_AlejaStackTest_0_10000_2.java:2971)
+205) test1034(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1034(Regression_AlejaStackTest_0_10000_2.java:3380)
+206) test1036(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1036(Regression_AlejaStackTest_0_10000_2.java:3610)
+207) test1044(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1044(Regression_AlejaStackTest_0_10000_2.java:4477)
+208) test1055(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1055(Regression_AlejaStackTest_0_10000_2.java:5562)
+209) test1067(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1067(Regression_AlejaStackTest_0_10000_2.java:6710)
+210) test1076(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1076(Regression_AlejaStackTest_0_10000_2.java:7558)
+211) test1090(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1090(Regression_AlejaStackTest_0_10000_2.java:9027)
+212) test1097(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1097(Regression_AlejaStackTest_0_10000_2.java:9720)
+213) test1102(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1102(Regression_AlejaStackTest_0_10000_2.java:10175)
+214) test1112(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1112(Regression_AlejaStackTest_0_10000_2.java:11287)
+215) test1113(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1113(Regression_AlejaStackTest_0_10000_2.java:11405)
+216) test1125(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1125(Regression_AlejaStackTest_0_10000_2.java:12500)
+217) test1132(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1132(Regression_AlejaStackTest_0_10000_2.java:13038)
+218) test1140(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1140(Regression_AlejaStackTest_0_10000_2.java:13776)
+219) test1146(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1146(Regression_AlejaStackTest_0_10000_2.java:14350)
+220) test1152(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1152(Regression_AlejaStackTest_0_10000_2.java:14894)
+221) test1153(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1153(Regression_AlejaStackTest_0_10000_2.java:14971)
+222) test1167(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1167(Regression_AlejaStackTest_0_10000_2.java:16444)
+223) test1176(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1176(Regression_AlejaStackTest_0_10000_2.java:17238)
+224) test1188(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1188(Regression_AlejaStackTest_0_10000_2.java:18322)
+225) test1189(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1189(Regression_AlejaStackTest_0_10000_2.java:18412)
+226) test1195(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1195(Regression_AlejaStackTest_0_10000_2.java:19127)
+227) test1197(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1197(Regression_AlejaStackTest_0_10000_2.java:19311)
+228) test1203(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1203(Regression_AlejaStackTest_0_10000_2.java:19908)
+229) test1205(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1205(Regression_AlejaStackTest_0_10000_2.java:20087)
+230) test1223(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1223(Regression_AlejaStackTest_0_10000_2.java:22084)
+231) test1236(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1236(Regression_AlejaStackTest_0_10000_2.java:23491)
+232) test1246(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1246(Regression_AlejaStackTest_0_10000_2.java:24314)
+233) test1250(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1250(Regression_AlejaStackTest_0_10000_2.java:24775)
+234) test1252(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1252(Regression_AlejaStackTest_0_10000_2.java:24989)
+235) test1259(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1259(Regression_AlejaStackTest_0_10000_2.java:25591)
+236) test1263(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1263(Regression_AlejaStackTest_0_10000_2.java:25846)
+237) test1267(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1267(Regression_AlejaStackTest_0_10000_2.java:26303)
+238) test1270(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1270(Regression_AlejaStackTest_0_10000_2.java:26481)
+239) test1276(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1276(Regression_AlejaStackTest_0_10000_2.java:27089)
+240) test1288(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1288(Regression_AlejaStackTest_0_10000_2.java:28421)
+241) test1289(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1289(Regression_AlejaStackTest_0_10000_2.java:28547)
+242) test1304(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1304(Regression_AlejaStackTest_0_10000_2.java:30308)
+243) test1305(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1305(Regression_AlejaStackTest_0_10000_2.java:30431)
+244) test1307(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1307(Regression_AlejaStackTest_0_10000_2.java:30684)
+245) test1308(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1308(Regression_AlejaStackTest_0_10000_2.java:30736)
+246) test1312(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1312(Regression_AlejaStackTest_0_10000_2.java:31177)
+247) test1329(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1329(Regression_AlejaStackTest_0_10000_2.java:32679)
+248) test1331(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1331(Regression_AlejaStackTest_0_10000_2.java:32919)
+249) test1333(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1333(Regression_AlejaStackTest_0_10000_2.java:33134)
+250) test1338(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1338(Regression_AlejaStackTest_0_10000_2.java:33614)
+251) test1344(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1344(Regression_AlejaStackTest_0_10000_2.java:34070)
+252) test1358(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1358(Regression_AlejaStackTest_0_10000_2.java:35651)
+253) test1364(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1364(Regression_AlejaStackTest_0_10000_2.java:36150)
+254) test1369(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1369(Regression_AlejaStackTest_0_10000_2.java:36577)
+255) test1372(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1372(Regression_AlejaStackTest_0_10000_2.java:36791)
+256) test1378(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1378(Regression_AlejaStackTest_0_10000_2.java:37508)
+257) test1384(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1384(Regression_AlejaStackTest_0_10000_2.java:38200)
+258) test1386(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1386(Regression_AlejaStackTest_0_10000_2.java:38386)
+259) test1391(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1391(Regression_AlejaStackTest_0_10000_2.java:39029)
+260) test1394(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1394(Regression_AlejaStackTest_0_10000_2.java:39361)
+261) test1403(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1403(Regression_AlejaStackTest_0_10000_2.java:40350)
+262) test1410(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1410(Regression_AlejaStackTest_0_10000_2.java:41044)
+263) test1415(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1415(Regression_AlejaStackTest_0_10000_2.java:41413)
+264) test1416(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1416(Regression_AlejaStackTest_0_10000_2.java:41466)
+265) test1418(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1418(Regression_AlejaStackTest_0_10000_2.java:41607)
+266) test1423(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1423(Regression_AlejaStackTest_0_10000_2.java:42166)
+267) test1425(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1425(Regression_AlejaStackTest_0_10000_2.java:42390)
+268) test1429(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1429(Regression_AlejaStackTest_0_10000_2.java:42896)
+269) test1444(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1444(Regression_AlejaStackTest_0_10000_2.java:44296)
+270) test1445(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1445(Regression_AlejaStackTest_0_10000_2.java:44405)
+271) test1448(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1448(Regression_AlejaStackTest_0_10000_2.java:44704)
+272) test1449(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1449(Regression_AlejaStackTest_0_10000_2.java:44837)
+273) test1450(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1450(Regression_AlejaStackTest_0_10000_2.java:44943)
+274) test1465(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1465(Regression_AlejaStackTest_0_10000_2.java:46585)
+275) test1468(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1468(Regression_AlejaStackTest_0_10000_2.java:46851)
+276) test1474(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1474(Regression_AlejaStackTest_0_10000_2.java:47379)
+277) test1493(experiment.drivers.test.Regression_AlejaStackTest_0_10000_2)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_2.test1493(Regression_AlejaStackTest_0_10000_2.java:49189)
+278) test1507(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1507(Regression_AlejaStackTest_0_10000_3.java:711)
+279) test1509(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1509(Regression_AlejaStackTest_0_10000_3.java:962)
+280) test1529(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1529(Regression_AlejaStackTest_0_10000_3.java:3348)
+281) test1531(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1531(Regression_AlejaStackTest_0_10000_3.java:3612)
+282) test1533(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1533(Regression_AlejaStackTest_0_10000_3.java:3895)
+283) test1543(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1543(Regression_AlejaStackTest_0_10000_3.java:4864)
+284) test1546(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1546(Regression_AlejaStackTest_0_10000_3.java:5073)
+285) test1548(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1548(Regression_AlejaStackTest_0_10000_3.java:5284)
+286) test1549(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1549(Regression_AlejaStackTest_0_10000_3.java:5410)
+287) test1557(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1557(Regression_AlejaStackTest_0_10000_3.java:6145)
+288) test1564(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1564(Regression_AlejaStackTest_0_10000_3.java:6866)
+289) test1566(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1566(Regression_AlejaStackTest_0_10000_3.java:7030)
+290) test1567(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1567(Regression_AlejaStackTest_0_10000_3.java:7172)
+291) test1571(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1571(Regression_AlejaStackTest_0_10000_3.java:7564)
+292) test1574(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1574(Regression_AlejaStackTest_0_10000_3.java:7883)
+293) test1578(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1578(Regression_AlejaStackTest_0_10000_3.java:8323)
+294) test1581(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1581(Regression_AlejaStackTest_0_10000_3.java:8535)
+295) test1586(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1586(Regression_AlejaStackTest_0_10000_3.java:9192)
+296) test1587(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1587(Regression_AlejaStackTest_0_10000_3.java:9312)
+297) test1594(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1594(Regression_AlejaStackTest_0_10000_3.java:10137)
+298) test1605(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1605(Regression_AlejaStackTest_0_10000_3.java:11361)
+299) test1625(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1625(Regression_AlejaStackTest_0_10000_3.java:13381)
+300) test1628(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1628(Regression_AlejaStackTest_0_10000_3.java:13691)
+301) test1632(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1632(Regression_AlejaStackTest_0_10000_3.java:13960)
+302) test1639(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1639(Regression_AlejaStackTest_0_10000_3.java:14559)
+303) test1661(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1661(Regression_AlejaStackTest_0_10000_3.java:16424)
+304) test1662(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1662(Regression_AlejaStackTest_0_10000_3.java:16512)
+305) test1666(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1666(Regression_AlejaStackTest_0_10000_3.java:16851)
+306) test1667(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1667(Regression_AlejaStackTest_0_10000_3.java:16971)
+307) test1672(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1672(Regression_AlejaStackTest_0_10000_3.java:17498)
+308) test1676(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1676(Regression_AlejaStackTest_0_10000_3.java:18037)
+309) test1679(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1679(Regression_AlejaStackTest_0_10000_3.java:18312)
+310) test1693(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1693(Regression_AlejaStackTest_0_10000_3.java:19870)
+311) test1704(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1704(Regression_AlejaStackTest_0_10000_3.java:21094)
+312) test1714(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1714(Regression_AlejaStackTest_0_10000_3.java:22127)
+313) test1719(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1719(Regression_AlejaStackTest_0_10000_3.java:22626)
+314) test1723(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1723(Regression_AlejaStackTest_0_10000_3.java:23009)
+315) test1726(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1726(Regression_AlejaStackTest_0_10000_3.java:23337)
+316) test1730(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1730(Regression_AlejaStackTest_0_10000_3.java:23674)
+317) test1741(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1741(Regression_AlejaStackTest_0_10000_3.java:24794)
+318) test1744(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1744(Regression_AlejaStackTest_0_10000_3.java:25071)
+319) test1766(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1766(Regression_AlejaStackTest_0_10000_3.java:27315)
+320) test1778(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1778(Regression_AlejaStackTest_0_10000_3.java:28584)
+321) test1780(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1780(Regression_AlejaStackTest_0_10000_3.java:28869)
+322) test1781(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1781(Regression_AlejaStackTest_0_10000_3.java:28966)
+323) test1786(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1786(Regression_AlejaStackTest_0_10000_3.java:29407)
+324) test1791(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1791(Regression_AlejaStackTest_0_10000_3.java:30021)
+325) test1796(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1796(Regression_AlejaStackTest_0_10000_3.java:30542)
+326) test1802(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1802(Regression_AlejaStackTest_0_10000_3.java:31058)
+327) test1809(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1809(Regression_AlejaStackTest_0_10000_3.java:31760)
+328) test1827(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1827(Regression_AlejaStackTest_0_10000_3.java:33610)
+329) test1834(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1834(Regression_AlejaStackTest_0_10000_3.java:34299)
+330) test1837(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1837(Regression_AlejaStackTest_0_10000_3.java:34621)
+331) test1840(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1840(Regression_AlejaStackTest_0_10000_3.java:34954)
+332) test1846(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1846(Regression_AlejaStackTest_0_10000_3.java:35531)
+333) test1871(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1871(Regression_AlejaStackTest_0_10000_3.java:37971)
+334) test1875(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1875(Regression_AlejaStackTest_0_10000_3.java:38308)
+335) test1877(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1877(Regression_AlejaStackTest_0_10000_3.java:38472)
+336) test1878(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1878(Regression_AlejaStackTest_0_10000_3.java:38554)
+337) test1887(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1887(Regression_AlejaStackTest_0_10000_3.java:39503)
+338) test1894(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1894(Regression_AlejaStackTest_0_10000_3.java:40294)
+339) test1902(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1902(Regression_AlejaStackTest_0_10000_3.java:40948)
+340) test1911(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1911(Regression_AlejaStackTest_0_10000_3.java:41860)
+341) test1919(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1919(Regression_AlejaStackTest_0_10000_3.java:42787)
+342) test1925(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1925(Regression_AlejaStackTest_0_10000_3.java:43515)
+343) test1930(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1930(Regression_AlejaStackTest_0_10000_3.java:43954)
+344) test1942(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1942(Regression_AlejaStackTest_0_10000_3.java:45079)
+345) test1953(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1953(Regression_AlejaStackTest_0_10000_3.java:46161)
+346) test1954(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1954(Regression_AlejaStackTest_0_10000_3.java:46290)
+347) test1955(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1955(Regression_AlejaStackTest_0_10000_3.java:46438)
+348) test1964(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1964(Regression_AlejaStackTest_0_10000_3.java:47343)
+349) test1976(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1976(Regression_AlejaStackTest_0_10000_3.java:48468)
+350) test1979(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1979(Regression_AlejaStackTest_0_10000_3.java:48749)
+351) test1983(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1983(Regression_AlejaStackTest_0_10000_3.java:49173)
+352) test1984(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1984(Regression_AlejaStackTest_0_10000_3.java:49304)
+353) test1989(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1989(Regression_AlejaStackTest_0_10000_3.java:49924)
+354) test1993(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1993(Regression_AlejaStackTest_0_10000_3.java:50205)
+355) test1997(experiment.drivers.test.Regression_AlejaStackTest_0_10000_3)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_3.test1997(Regression_AlejaStackTest_0_10000_3.java:50470)
+356) test2001(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2001(Regression_AlejaStackTest_0_10000_4.java:75)
+357) test2012(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2012(Regression_AlejaStackTest_0_10000_4.java:1287)
+358) test2016(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2016(Regression_AlejaStackTest_0_10000_4.java:1628)
+359) test2019(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2019(Regression_AlejaStackTest_0_10000_4.java:1947)
+360) test2020(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2020(Regression_AlejaStackTest_0_10000_4.java:2018)
+361) test2024(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2024(Regression_AlejaStackTest_0_10000_4.java:2508)
+362) test2029(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2029(Regression_AlejaStackTest_0_10000_4.java:3047)
+363) test2035(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2035(Regression_AlejaStackTest_0_10000_4.java:3586)
+364) test2036(experiment.drivers.test.Regression_AlejaStackTest_0_10000_4)
+java.lang.AssertionError: Expected exception of type experiment.util.EmptyStackException; message: null
+	at org.junit.Assert.fail(Assert.java:89)
+	at experiment.drivers.test.Regression_AlejaStackTest_0_10000_4.test2036(Regression_AlejaStackTest_0_10000_4.java:3692)
+
+FAILURES!!!
+Tests run: 2037,  Failures: 364
+

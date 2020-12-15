@@ -15,7 +15,7 @@ public class AlejaStackTestDriver {
         try {
             String seed = System.getProperty("seed", "0");
             String limit = System.getProperty("limit", "0");
-            writer = new FileWriter(String.format("Mod2_push_Mod3_size.csv", seed, limit));
+            writer = new FileWriter(String.format("Mod1_isEmpty_Mod2_push.csv", seed, limit));
             writer.write("testId,instanceId,size,isEmpty,peek,peek_obj_type,calledMethod,pushInput"+"\n");
             writer.flush();
         } catch (IOException e) {
