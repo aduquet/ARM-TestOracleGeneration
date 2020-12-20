@@ -1,0 +1,3 @@
+,size,isEmpty,peek_obj_type,push,pop,clear,calledMethod,size_p,diff,testId,instanceId
+1,"size == ""0""","isEmpty == ""True""","peek_obj_type == ""EmptyObject""","push == ""True""","pop == ""False""","clear == ""False""","calledMethod == ""push""","size_p == ""0""",Yes,1607884796965:44220aca-5a41-48fa-be36-18b8526a8fbd,1607884796965:401e535f-5246-48d2-8e30-77fb38f3337d
+247,"size == ""0""","isEmpty == ""True""","peek_obj_type == ""EmptyObject""","push == ""False""","pop == ""True""","clear == ""False""","calledMethod == ""pop""","size_p == ""0""",Yes,1607884796958:d88bca07-75f2-4140-9f06-98db6e822bb4,1607884796958:d32a64dd-c1f6-4086-bbb8-5465f026ec22

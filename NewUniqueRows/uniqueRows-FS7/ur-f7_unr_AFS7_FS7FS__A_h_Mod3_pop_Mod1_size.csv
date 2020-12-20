@@ -1,0 +1,3 @@
+,size,isEmpty,peek_obj_type,push,pop,clear,size_p,diff,testId,instanceId
+2,"size == ""0""","isEmpty == ""True""","peek_obj_type == ""EmptyObject""","push == ""class java.lang.String""","pop == ""none""","clear == ""none""","size_p == ""0""",Yes,1607893604029:f19a54fd-cb01-4b78-9aac-e77813f699e8,1607893604029:e160f3e1-b18c-4ec2-a20d-eece650fa483
+232,"size == ""0""","isEmpty == ""True""","peek_obj_type == ""EmptyObject""","push == ""none""","pop == ""EmptyObject""","clear == ""none""","size_p == ""0""",Yes,1607893604019:cd6769ca-90d7-4933-ba69-e437611b884c,1607893604019:36b902a0-3166-4c3b-9771-357f81304927

@@ -67,7 +67,8 @@ if __name__ == '__main__':
                 saveFile(df, name, paths)
 
         else:
-            df = pd.read_csv(file_in, index_col=0)
+            df = pd.read_csv(file_in)
+            print(df.keys())
             new_df = uniqueRows(df)
             saveFile(new_df, file_out, paths)
 

@@ -1,0 +1,5 @@
+,Number_of_Rules,LHS_peek_obj_type,LHS_isEmpty,LHS_size,LHS_push,LHS_pop,LHS_clear,RHS_peek_obj_type,RHS_isEmpty,RHS_size,RHS_push,RHS_pop,RHS_clear
+0,29,0,22,6,0,19,3,12,7,12,12,0,10
+1,12,0,9,3,3,19,1,6,3,6,3,0,1
+2,23,0,22,3,3,16,1,12,1,12,12,0,8
+3,9,0,9,3,3,16,1,6,1,6,3,0,8
